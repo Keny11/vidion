@@ -1,4 +1,23 @@
 body {
     color: white;
     background: black;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(140 167 225);
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+section{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.aranha {
+    margin-right: 5%;
 }
