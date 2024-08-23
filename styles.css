@@ -4,19 +4,49 @@ body {
     margin: 0px;
 }
 
-header {
-    background: rgb(140 167 225);
-    padding: 20px;
-    font-size: 32px;
+.header {
+    overflow: hidden;
+    background: rgb(124, 158, 231);
+    padding: 20px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 12px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+
+.header a.nome {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.oi {
+    font-size: 50px;
+    transition: all 200ms ease-out;
+}
+
+.oi:hover {
+    font-size: 70px;
+    transition: all 200ms ease-out;
+}
+
+.header-dir {
+    float: right;
+}
+
 .asista {
-    background-color: rgb(21, 51, 78);
+    background-color: rgb(15, 47, 88);
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .testo {
@@ -39,16 +69,22 @@ h2 {
 }
 
 .videos img {
+    border-radius: 10px;
+    box-shadow: 0;
     height: 171px;
     opacity: 0.5;
+    box-shadow: 0;
+    transition: all 200ms ease-out;
 }
 
 .videos img:hover {
     opacity: 1.0;
+    box-shadow: 0 4px 8px 0 rgb(0, 47, 255);;
+    transition: all 200ms ease-out;
 }
 
 .videos {
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     gap: 10px;
 }
